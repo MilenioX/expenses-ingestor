@@ -5,4 +5,3 @@ target/
 .vscode/
 .metals/
 .bloop/
-**/project
