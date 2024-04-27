@@ -19,3 +19,9 @@ Tech Stack:
 - Cats
 - Cats-effect
 - FS2
+
+# Local development
+To build the local image of the service
+```
+sbt apiService/Docker/publishLocal
+```
