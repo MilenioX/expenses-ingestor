@@ -19,6 +19,9 @@ val apiService = project.in(file("modules/service"))
     name	 	:= "expenses-api",
     scalaVersion 	:= scala3Version,
     libraryDependencies ++= Seq(
-      munit
+      munit,
+      cats,
+      catsEffect,
+      fs2
     )
   )

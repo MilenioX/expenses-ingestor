@@ -1,6 +1,9 @@
 package com.mundox.expenses.ingestor.main
 
-object Main {
-  def main(args: Array[String]): Unit =
-    println("Hello World")
+import cats.effect.{IO, IOApp}
+
+object Main extends IOApp.Simple {
+
+  override def run: IO[Unit] =
+    IO.println("Hello World")
 }
